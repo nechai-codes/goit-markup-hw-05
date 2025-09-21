@@ -664,7 +664,6 @@ a {
 }
 
 .form-label {
-    
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -678,10 +677,10 @@ a {
     flex-direction: column;
 }
 
-/* .form-group {
+.form-group {
     width: 100%;
     margin-bottom: 8px;
-} */
+}
 
 .form-group-textarea {
     width: 100%;
