@@ -2,6 +2,11 @@
     --social-link-color: #4d5ae5;
     --team-icon-color: #f4f4fd;
     --footer-text-color: #FFFFFF;
+    --navy-blue: #2E2F42;
+    --light-slate: #8e8f99;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --cloud: #F4F4FD;
 }
 
 body {
@@ -612,7 +617,7 @@ a {
 
 /* --------modal window-------------------- */
 
-.backdrop{
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -627,13 +632,13 @@ a {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-open{
+.backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
 
-.modal{
+.modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -653,11 +658,11 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
     margin-bottom: 16px;
     margin-top: 24px;
     max-width: 100%;
     white-space: nowrap;
+    color: var(--navy-blue);
 }
 
 .form-label {
@@ -665,7 +670,9 @@ a {
     font-size: 12px;
     line-height: 117%;
     letter-spacing: 0.04em;
-    color: #8e8f99;
+    color: var(--light-slate);
+    display: block;
+    margin-bottom: 4px;
 }
 
 .modal-form {
@@ -731,7 +738,7 @@ a {
     font-size: 12px;
     line-height: 117%;
     letter-spacing: 0.04em;
-    color: #8e8f99;
+    color: var(--light-slate);
     display: flex;
     align-items: center;
     gap: 8px;
@@ -745,8 +752,8 @@ a {
 }
 
 .checkbox-input:checked+.checkbox-custom {
-    background-color: #404bbf;
-    border-color: #404bbf;
+    background-color: var(--ocean);
+    fill: var(--cloud);
 }
 
 .checkbox-input:checked+.checkbox-custom .checkbox-icon {
@@ -783,7 +790,7 @@ a {
     line-height: 133%;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: #4d5ae5;
+    color: var(--iris);
 }
 
 .form-submit-btn {
