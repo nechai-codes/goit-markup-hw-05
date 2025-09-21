@@ -1,12 +1,10 @@
 :root {
-    --social-link-color: #4d5ae5;
-    --team-icon-color: #f4f4fd;
-    --footer-text-color: #FFFFFF;
-    --navy-blue: #2E2F42;
+    --navy-blue: #2e2f42;
     --light-slate: #8e8f99;
     --iris: #4d5ae5;
     --ocean: #404bbf;
-    --cloud: #F4F4FD;
+    --cloud: #f4f4fd;
+    --footer-text-color: #ffffff;
 }
 
 body {
@@ -14,7 +12,6 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-
 
 /* reset */
 ul,
@@ -24,11 +21,9 @@ ol {
     padding: 0;
 }
 
-
 img {
     display: block;
 }
-
 
 h1,
 h2,
@@ -41,14 +36,11 @@ ul {
     margin: 0;
 }
 
-
 a {
     text-decoration: none;
 }
 
-
 /* common */
-
 
 .container {
     max-width: 1158px;
@@ -56,9 +48,7 @@ a {
     padding: 0 15px;
 }
 
-
 /* -------------------------HEADER-------------------- */
-
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -67,18 +57,15 @@ a {
         0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
-
 .header-container {
     display: flex;
     align-items: center;
 }
 
-
 .header-nav {
     display: flex;
     align-items: center;
 }
-
 
 .nav-list {
     display: flex;
@@ -86,12 +73,10 @@ a {
     align-items: center;
 }
 
-
 .contacts-list {
     display: flex;
     align-items: center;
 }
-
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -108,16 +93,13 @@ a {
     margin-right: 76px;
 }
 
-
 .header-logo .logo-part {
     color: #2e2f42;
 }
 
-
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
-
 
 .nav-link {
     position: relative;
@@ -130,7 +112,6 @@ a {
     color: #2e2f42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .nav-link::after {
     content: "";
@@ -155,14 +136,12 @@ a {
     font-style: normal;
 }
 
-
 .contacts-list {
     display: flex;
     gap: 40px;
     margin: 0;
     list-style: none;
 }
-
 
 .contacts-link {
     display: block;
@@ -175,7 +154,6 @@ a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
@@ -184,9 +162,7 @@ a {
     color: #404bbf;
 }
 
-
 /* -------------------------hero-------------------- */
-
 
 .hero {
     padding: 188px 0;
@@ -199,7 +175,6 @@ a {
     background-position: center;
     background-size: cover;
 }
-
 
 .hero-container {
     display: flex;
@@ -218,7 +193,6 @@ a {
     text-align: center;
     color: #ffffff;
 }
-
 
 .hero-btn {
     font-family: inherit;
