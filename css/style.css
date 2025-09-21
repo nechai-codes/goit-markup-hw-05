@@ -783,9 +783,10 @@ a {
 }
 
 .checkbox-custom {
+    display: inline-flex;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    display: inline-flex;
+    
     align-items: center;
     justify-content: center;
     width: 16px;
