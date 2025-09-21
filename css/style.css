@@ -801,6 +801,7 @@ a {
 .checkbox-input:checked+.checkbox-label .checkbox-custom {
     background-color: var(--ocean);
     border: none;
+    fill: var(--cloud);
 }
 
 .checkbox-input:checked+.checkbox-label .checkbox-custom .checkbox-icon {
