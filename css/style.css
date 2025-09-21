@@ -678,10 +678,10 @@ a {
     flex-direction: column;
 }
 
-.form-group {
+/* .form-group {
     width: 100%;
     margin-bottom: 8px;
-}
+} */
 
 .form-group-textarea {
     width: 100%;
@@ -786,7 +786,6 @@ a {
     display: inline-flex;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    
     align-items: center;
     justify-content: center;
     width: 16px;
